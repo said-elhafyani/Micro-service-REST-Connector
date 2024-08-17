@@ -7,4 +7,5 @@ import org.sid.bankaccountservice.dto.BankAccountResponseDTO;
 public interface AccountService {
     public BankAccountResponseDTO addAccount(BankAccountRequestDTO bankAccountDTO);
 
+    BankAccountResponseDTO UpdateAccount(String id, BankAccountRequestDTO bankAccountDTO);
 }
